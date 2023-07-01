@@ -8,7 +8,7 @@ import NotFound from "./NotFound";
 
 //components
 import Articles from "../components/articles";
-// import CommentsList from "../components/CommentsList";
+import CommentsList from "../components/CommentsList";
 // import AddCommentForm from "../components/AddCommentForm";
 
 
@@ -43,11 +43,9 @@ import Articles from "../components/articles";
                     
                 ))}
 
-                {/* <CommentsList comments={articleInfo.comments} />
-                <AddCommentForm articleName={name} setArticleInfo={setArticleInfo}/> */}
+               <CommentsList comments={articleInfo.comments} />
+                {/* <AddCommentForm articleName={name} setArticleInfo={setArticleInfo} />*/}
 
-   
-          
     
 
                 <h1 className='sm:text-2xl text-xl font-bold my-4 text-gray-900'>
@@ -58,7 +56,7 @@ import Articles from "../components/articles";
       </div>
 
         </>
-    )
- }
+    );
+ };
 
  export default Article;
