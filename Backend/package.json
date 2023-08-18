@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imvktiwari/Nostalgic_ISM.git"
+    "url": "git+https://github.com/himanshukumar29/Community_Blog_Project.git"
   },
-  "author": "Vaibhav Kumar Tiwari",
+  "author": "Himanshu Kumar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/imvktiwari/Nostalgic_ISM/issues"
+    "url": "https://github.com/himanshukumar29/Community_Blog_Project/issues"
   },
-  "homepage": "https://github.com/imvktiwari/Nostalgic_ISM#readme",
+  "homepage": "https://github.com/himanshukumar29/Community_Blog_Project#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.2",
