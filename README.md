@@ -2,8 +2,8 @@
 "One may extricate an individual from the realm of ISM, yet the essence of ISM shall forever dwell within that very soul."
 Nostalgic ISM is a dedicated social platform, lovingly created for ISM peers❤️, enabling them to share their college memories, past relationships, and personal achievements.
 
-
-
+# Demo
+https://community-blog-ism.netlify.app/
 
 
 ## 🚀 About Me
