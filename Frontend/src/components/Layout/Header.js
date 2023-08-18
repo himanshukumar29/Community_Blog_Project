@@ -39,7 +39,7 @@ export default function Header() {
     const toggleShow = () => setBasicModal(!basicModal);
     //Updating Perssonal Information
     const [editing, setEditing] = useState(false);
-    const BACKEND_BASE_URL = "https://nostalgic-ism-backend.onrender.com";
+    const BACKEND_BASE_URL = "https://nostalgic-ism-backend-0gxs.onrender.com";
     const LoggedInEmail = localStorage.getItem("Nostalgic_ISM");
 
     //Getting User's Information

@@ -12,7 +12,7 @@ export default function Card(props) {
     //Getting User's Information
 
     const [userData, setUserData] = useState('');
-    const BACKEND_BASE_URL = "https://nostalgic-ism-backend.onrender.com";
+    const BACKEND_BASE_URL = "https://nostalgic-ism-backend-0gxs.onrender.com";
     useEffect(() => {
         const fetchDetails = async () => {
             const response = await fetch(`${BACKEND_BASE_URL}/userinformation/${(props.email).replace(/['"]+/g, '')}`);

@@ -17,7 +17,7 @@ export default function RecordsCard() {
   const navigate = useNavigate();
   const [previous, setPrevious] = useState([]);
 
-  const BACKEND_BASE_URL = "https://nostalgic-ism-backend.onrender.com";
+  const BACKEND_BASE_URL = "https://nostalgic-ism-backend-0gxs.onrender.com";
   const URL = `${BACKEND_BASE_URL}/allpostsinformation`;//to replace double inverted from email-id.
   useEffect(() => {
     if (!localStorage["Nostalgic_ISM"]) {
